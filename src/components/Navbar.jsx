@@ -49,15 +49,15 @@ function Navbar({ isTokenPage = false }) {
                             >
                                 Documentation
                             </a>
+                            <a
+                                href="https://github.com/SentraAI/Sentra"
+                                target="_blank"
+                                className="hover:text-blue-600 hover:underline transition duration-200"
+                            >
+                                GitHub
+                            </a>
                         </>
                     )}
-
-                    <a
-                        href="#"
-                        className="hover:text-blue-600 hover:underline transition duration-200"
-                    >
-                        
-                    </a>
                 </div>
 
                 {/* Botão $SentraAi */}
@@ -73,7 +73,3 @@ function Navbar({ isTokenPage = false }) {
 }
 
 export default Navbar
-
-
-
-

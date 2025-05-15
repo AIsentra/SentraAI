@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function Hero() {
     const scrollToFeatures = () => {
@@ -28,12 +27,13 @@ function Hero() {
                     >
                         Learn More
                     </button>
-                    <Link
-                        to="#"
+                    <a
+                        href="https://github.com/SentraAI/Sentra"
+                        target="_blank"
                         className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-xl text-sm font-semibold transition-transform transform hover:scale-105"
                     >
-                        GitHub <span className="text-xs">(soon)</span>
-                    </Link>
+                        GitHub
+                    </a>
                 </div>
             </div>
 

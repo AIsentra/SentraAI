@@ -11,3 +11,8 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Vercel/Node-specific ignores
+node_modules
+dist
+package-lock.json
+#

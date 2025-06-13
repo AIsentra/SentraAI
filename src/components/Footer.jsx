@@ -27,7 +27,9 @@ function Footer() {
                     <h2 className="text-xl font-semibold mb-4">Social Media</h2>
                     <div className="flex gap-4 justify-center md:justify-start">
                         <a
-                            href="#"
+                            href="https://x.com/ai_sentra"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-gray-200 hover:bg-gray-300 transition p-3 rounded-xl"
                         >
                             <FaXTwitter className="w-5 h-5 text-black" />

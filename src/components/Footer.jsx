@@ -35,7 +35,9 @@ function Footer() {
                             <FaXTwitter className="w-5 h-5 text-black" />
                         </a>
                         <a
-                            href="#"
+                            href="https://discord.gg/q45p2Jka"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-gray-200 hover:bg-gray-300 transition p-3 rounded-xl"
                         >
                             <FaDiscord className="w-5 h-5 text-black" />
